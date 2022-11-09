@@ -12,6 +12,11 @@
 button {
     all: unset;
 }
+
+.padding-right-10 {
+    padding-right: 10px;
+}
+
 /*header*/
 
 header {
@@ -45,20 +50,23 @@ ul {
     padding: 0;
     list-style: none;
     overflow: hidden;
+    width: 35%;
+    float: right;
+    text-align: right;
 }
 
 a {
   display: block;
-  padding: 20px;
+  padding: 20px 0;
   text-decoration: none;
 }
 
 #header-btn {
-    font-size: 15px;
-    padding: 5px 10px;
+    font-size: 16px;
+    padding: 7px 15px;
     background-color: white;
     color: black;
-    border-radius: 15px;
+    border-radius: 16px;
 }
 
 header .menu {
@@ -84,16 +92,10 @@ header .menu-icon .nav-icon {
 }
 
 header .menu-icon .nav-icon:before {
-    background-color: white;
-    content: "";
-    display: block;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    transition: all .2 ease-out;
     top: 5px;
 }
 
+header .menu-icon .nav-icon:before, 
 header .menu-icon .nav-icon:after {
     background-color: white;
     content: "";
@@ -102,6 +104,9 @@ header .menu-icon .nav-icon:after {
     width: 100%;
     position: absolute;
     transition: all .2 ease-out;
+}
+
+header .menu-icon .nav-icon:after {
     top: -5px;
 }
 
