@@ -7,70 +7,111 @@
     line-height: 160%;
 }
 
-.container {
-    width: 85%;
-    margin: 0 auto;
-}
+/*general*/
 
-header, .row, .col, .content, .col-60, .col-30 {
-    width: 100%;
-}
+    button {
+        all: unset;
+    }
 
-.color-white {
-    color: white;
-}
+    /*width*/
 
-.color-gray {
-    color: #707070;
-}
+        .container {
+            width: 85%;
+            margin: 0 auto;
+        }
 
-button {
-    all: unset;
-}
+        header, .row, .col, .content, .col-60, .col-30, .width-50 {
+            width: 100%;
+        }
 
-.margin-16-0-40-0 {
-    margin: 16px 0 40px 0;
-}
+    /*width-end*/
 
-.padding-right-10 {
-    padding-right: 10px;
-}
+    /*fonts-and-text*/
 
-.padding-10-70 {
-    padding: 10px 70px;
-}
+        .text-align-center {
+            text-align: center;
+        }
 
-.padding-25-0 {
-    padding: 25px 0;
-}
+        .bold {
+            font-weight: bold;
+        }    
 
-.border-radius-25 {
-    border-radius: 25px;
-}
+        .font-23 {
+            font-size: 23px;
+        }
 
-.background-azure {
-    background-color: rgb(181, 221, 255);
-}
+        .font-100 {
+            font-size: 100px;
+        }
 
-.background-blue {
-    background-color: rgb(0, 132, 253);
-}
+        .letter-spacing {
+            letter-spacing: 2px;
+        }
 
-.bold {
-    font-weight: bold;
-}
+    /*fonts-and-text-end*/
 
-.colr-blue {
-    color: rgb(0, 132, 253);
-}
+    /*colors*/
 
-.font-23 {
-    font-size: 23px;
-}
+        .background-azure {
+            background-color: rgb(181, 221, 255);
+        }
 
-.letter-spacing {
-    letter-spacing: 2px;
-}
+        .background-blue {
+            background-color: rgb(0, 132, 253);
+        }
+
+        .color-blue {
+            color: rgb(0, 132, 253);
+        }
+
+        .color-white {
+            color: white;
+        }
+
+        .color-gray {
+            color: #707070;
+        }
+
+    /*colors-end*/
+
+    /*padding*/
+
+        .padding-right-10 {
+            padding-right: 10px;
+        }
+
+        .padding-10-70 {
+            padding: 10px 70px;
+        }
+
+        .padding-25-0 {
+            padding: 25px 0;
+        }
+
+    /*padding-end*/
+
+    /*margin*/
+
+        .margin-16-0-40-0 {
+            margin: 16px 0 40px 0;
+        }
+
+        .margin-25-0 {
+            margin: 25px 0;
+        }
+
+    /*margin-end*/
+
+    /*border-radius*/
+
+    .border-radius-25 {
+        border-radius: 25px;
+    }
+
+    /*border-radius*/
+
+/*general-end*/
+
 
 /*header*/
 
@@ -185,10 +226,6 @@ button {
 
     .col-30 {
         padding: 35px;
-    }
-
-    .col-60, .col-30 {
-        border-radius: 25px;
     }
 
 /*footer*/
