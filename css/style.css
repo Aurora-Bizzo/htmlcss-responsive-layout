@@ -17,9 +17,13 @@
         object-fit: cover;
     }
 
+    .display-block {
+        display: block;
+    }
+
     /*width-height*/
 
-        .container-L, .container-M, .width-85 {
+        .container-L, .container-M, .container-S, .container-XS, .width-85 {
             width: 85%;
         }
 
@@ -39,6 +43,10 @@
 
     /*fonts-and-text*/
 
+        .text-decoration-none {
+            text-decoration: none;
+        }
+
         .font-style-italic {
             font-style: italic;
         }
@@ -54,6 +62,10 @@
         .bold {
             font-weight: bold;
         } 
+
+        .font-19 {
+            font-size: 19px;
+        }
         
         .font-20 {
             font-size: 20;
@@ -112,12 +124,20 @@
             background-color: rgb(149, 147, 230);
         }
 
+        .background-gray {
+            background-color: rgb(51, 51, 51);
+        }
+
         .background-white {
             background-color: white;
         }
 
         .color-portage {
             color: rgb(149, 147, 230);
+        }
+
+        .color-light-portage {
+            color: rgb(205, 204, 255);
         }
 
         .color-blue {
@@ -130,6 +150,10 @@
 
         .color-gray {
             color: #707070;
+        }
+
+        .color-tacao {
+            color: rgb(253, 193, 95);
         }
 
     /*colors-end*/
@@ -184,6 +208,14 @@
             padding: 80px 0;
         }
 
+        .padding-20-90 {
+            padding: 20px 90px;
+        }
+
+        .padding-0-55 {
+            padding: 0 55px;
+        }
+
     /*padding-end*/
 
     /*margin*/
@@ -204,8 +236,16 @@
             margin: 25px 0;
         }
 
+        .margin-35-0 {
+            margin: 35px 0;
+        }
+
         .margin-top-60 {
             margin-top: 60px;
+        }
+
+        .margin-bottom-30 {
+            margin-bottom: 30px;
         }
 
         .margin-30-0-65-0 {
@@ -218,6 +258,10 @@
 
         .border-radius-25 {
             border-radius: 25px;
+        }
+
+        .border-radius-40 {
+            border-radius: 40px;
         }
 
         .border-radius-65 {
@@ -277,12 +321,6 @@
         text-align: right;
     }
 
-    a {
-        display: block;
-        padding: 15px 0;
-        text-decoration: none;
-    }
-
     #header-btn {
         font-size: 20px;
         padding: 7px 20px;
@@ -339,7 +377,7 @@
         }
 
         header .menu-btn:checked ~ .menu {
-            max-height: 325px;
+            max-height: 370px;
         }
 
     /*hamburger-end*/
